@@ -10,6 +10,6 @@ const pathResolve = (pathStr: string) => {
 module.exports = defineConfig({
   plugins: [vue(), vueJsx()],
   alias: {
-    '@': pathResolve('./src'),
+    '@': pathResolve('./src')
   },
 });
